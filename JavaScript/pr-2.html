@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <p id="demo"></p>
+    <script type="text/javascript">
+        function f1() {
+            document.write("Hello");
+        }
+
+        function f2() {
+            setTimeout(function () {
+                document.write("Hello");
+            }, 5000); // Wait for 5000 milliseconds (5 seconds)
+            document.write("world");
+            document.write("<br>");
+            f1();
+        }
+
+        f2();
+
+        // document.write("<br>");
+
+        // function f3() {
+        //     setTimeout(function () {
+        //         document.write("Hello, World!");
+        //     }, 5000); // Wait for 5000 milliseconds (5 seconds)
+        // }
+        // document.write("<br>");
+        // document.write("Start");
+        // document.write("<br>");
+        // f3();
+        // document.write("<br>");
+        // document.write("End");
+
+
+        // const element = document.getElementById("demo");
+        // setInterval(function () { element.innerHTML += "Hello" + "<br>" }, 1000);
+    </script> -->
+    <p id="demo"></p>
+
+    <script>
+        let text1 = "Hello";
+        let text2 = "World!";
+        let text3 = "How Are You?"
+        let text4 = text1.concat(" ", text2, " ", text3);
+        document.getElementById("demo").innerHTML = text4;
+    </script>
+</body>
+
+</html>

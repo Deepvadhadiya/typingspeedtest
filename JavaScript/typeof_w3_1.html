@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Of</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        // document.getElementById("demo").innerHTML =
+        //     "'Deep' is " + typeof "Deep" + "<br>" +
+        //     "3.15 is " + typeof 3.15 + "<br>" +
+        //     "NaN is " + typeof NaN + "<br>" +
+        //     "true is " + typeof true + "<br>" +
+        //     "[11, 22, 33, 44] is " + typeof [11, 22, 33, 44] + "<br>" +
+        //     "{name:'Deep', age:20} is " + typeof { name: 'Deep', age: 20 } + "<br>" +
+        //     "new Date() is " + typeof new Date() + "<br>" +
+        //     "function () {} is " + typeof function () { } + "<br>" +
+        //     "myAge is " + typeof myAge + "<br>" +
+        //     "null is " + typeof null;
+
+        // document.getElementById("demo").innerHTML =
+        //     "'Deep' is " + typeof "Deep" + "<br>" +
+        //     "3.15 is " + typeof 3.15 + "<br>" + 
+        //     "true is " + typeof true + "<br>" +
+        //     "false is " + typeof false + "<br>" +
+        //     typeof x;
+
+        // document.getElementById("demo").innerHTML =
+        //     typeof { name: 'Deep', age: 20 } + "<br>" +
+        //     typeof [1, 2, 3, 4] + "<br>" +
+        //     typeof null + "<br>" +
+        //     typeof function myFunc() { };
+
+        // document.getElementById("demo").innerHTML =
+        //     "Deep".constructor + "<br>" +
+        //     (3.14).constructor + "<br>" +
+        //     false.constructor + "<br>" +
+        //     [1, 2, 3, 4].constructor + "<br>" +
+        //     { name: 'Deep', age: 20 }.constructor + "<br>" +
+        //     new Date().constructor + "<br>" +
+        //     function () { }.constructor;
+
+        // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        // document.getElementById("demo").innerHTML = isArray(fruits);
+        // function isArray(myArray) {
+        //     return myArray.constructor === Array;
+        // }
+
+        // const myDate = new Date();
+        // document.getElementById("demo").innerHTML = isDate(myDate);
+        // function isDate(myDate) {
+        //     return myDate.constructor.toString().indexOf("Date") > -1;
+        // }
+
+        // let car;
+        // document.getElementById("demo").innerHTML = car + "<br>" + typeof car;
+
+        // let car = "volvo";
+        // car = undefined;
+        // document.getElementById("demo").innerHTML = car + "<br>" + typeof car;
+
+        // let car = "";
+        // document.getElementById("demo").innerHTML = "The value is: " + car + "<br>" + "The type is: " + typeof car;
+
+        // let person = {firstName: "Deep", lastName: "Vadhadiya", age: "20"};
+        // person = null;
+        // document.getElementById("demo").innerHTML = typeof person;
+
+        // let person = {firstName: "Deep", lastName: "Vadhadiya", age: "20"};
+        // person = undefined;
+        // document.getElementById("demo").innerHTML = typeof person;
+
+        const cars = ["Saab", "Volvo", "BMW"];
+        document.getElementById("demo").innerHTML =
+            (cars instanceof Array) + "<br>" +
+            (cars instanceof Object) + "<br>" +
+            (cars instanceof String) + "<br>" +
+            (cars instanceof Number);
+    </script>
+
+    <p>
+        <a href="javascript:void(0);">Useless link</a>
+    </p>
+
+    <p>
+        <a href="javascript:void(document.body.style.backgroundColor='yellow');">
+            Click me to change the background color of body to red.</a>
+    </p>
+</body>
+
+</html>

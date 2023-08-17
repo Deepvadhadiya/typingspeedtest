@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparisons</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <!-- <script>
+
+        // let x = 15;
+        // document.getElementById("demo").innerHTML = (x == 28);
+
+        // let x = 25;
+        // document.getElementById("demo").innerHTML = (x == 25);
+
+        // let x = 25;
+        // document.getElementById("demo").innerHTML = (x == "25");
+
+        // let x = 25;
+        // document.getElementById("demo").innerHTML = (x === 25);
+
+        // let x = 25;
+        // document.getElementById("demo").innerHTML = (x === "25");
+
+        // let x = 20;
+        // document.getElementById("demo").innerHTML = (x != 25);
+
+        // let x = 20;
+        // document.getElementById("demo").innerHTML = (x !== 20);
+
+        // let x = 20;
+        // document.getElementById("demo").innerHTML = (x !== "20");
+
+        // let x = 20;
+        // document.getElementById("demo").innerHTML = (x !== 28);
+
+        // let x = 55;
+        // document.getElementById("demo").innerHTML = (x > 50);
+
+        // let x = 55;
+        // document.getElementById("demo").innerHTML = (x < 50);
+
+        // let x = 55;
+        // document.getElementById("demo").innerHTML = (x >= 50);
+
+        // let x = 55;
+        // document.getElementById("demo").innerHTML = (x <= 55);
+
+        // let x = 55;
+        // document.getElementById("demo").innerHTML = (x <= 50);
+
+        // let a = 6;
+        // let b = 9;
+        // document.getElementById("demo").innerHTML = (a < 10 && b > 1) + "<br>" + (a > 10 && b < 1)
+
+        // let a = 6;
+        // let b = 9;
+        // document.getElementById("demo").innerHTML = (a == 5 || b == 5) + "<br>" + (a == 6 || b == 0) + "<br>" + (a == 0 || b == 9) + "<br>" + (a == 6 || b == 9);
+
+        // let a = 6;
+        // let b = 3;
+        // document.getElementById("demo").innerHTML = !(a === b) + "<br>" + !(a > b);
+    </script> -->
+    <!-- <input id="age" value="18" />
+    <button onclick="myFunction()">Try it</button>
+    <script>
+        function myFunction() {
+            let age = document.getElementById("age").value;
+            let voteable = (age < 18) ? "Too young" : "Old enough";
+            document.getElementById("demo").innerHTML = voteable + " to vote.";
+        }
+    </script> -->
+    <!--<script>
+        // document.getElementById("demo").innerHTML = 2 < 12;
+        // document.getElementById("demo").innerHTML = 2 < "12";
+        // document.getElementById("demo").innerHTML = 2 < "John";
+        // document.getElementById("demo").innerHTML = 2 > "John";
+        // document.getElementById("demo").innerHTML = 2 == "John";
+        // document.getElementById("demo").innerHTML = "2" < "12";
+        // document.getElementById("demo").innerHTML = "2" > "12";
+        // document.getElementById("demo").innerHTML = "2" == "12";
+    </script> -->
+
+    <!-- <input id="age" value="18" />
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            let voteable;
+            let age = Number(document.getElementById("age").value);
+            if (isNaN(age)) {
+                voteable = "Input is not a number";
+            } else {
+                voteable = (age < 18) ? "Too young" : "Old enough";
+            }
+            document.getElementById("demo").innerHTML = voteable + " to vote";
+        }
+    </script> -->
+
+    <!-- <script>
+        let name = null;
+        let text = "missing";
+        let result = name ?? text;
+        document.getElementById("demo").innerHTML = "The name is " + result; 
+    </script> -->
+
+    <p>Car name is:</p>
+    <p id="demo"></p>
+
+    <script>
+        const car = { type: "Fiat", model: "500", color: "white" };
+        let name = car?.type;
+        document.getElementById("demo").innerHTML = name;
+    </script>
+</body>
+
+</html>

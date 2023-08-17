@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let n = 5
+        // let string = "";
+        // for (let i = 1; i <= n; i++) {
+        //     //console.log(1 <= 5)
+        //     for (let j = 1; j <= i; j++) {
+        //     //console.log(1 <= 1)
+        //    string += j
+        //     }
+        //     let j = 1
+        //     if(j <= i){
+        //         string += j
+        //         string += "<br>";
+
+        //     }
+        //     else{
+        //         i++
+        //     }
+        //     document.write(string);
+        // }
+        function generatePyramid() {
+            var totalNumberofRows = 5;
+            var arr = new Array();
+            for (var i = 1; i <= totalNumberofRows; i++) {
+                for (var j = 1; j <= i; j++) {
+                    arr.push(j);
+                    document.write(j);
+                }
+                document.write("<br>");
+            }
+        }
+
+        generatePyramid();
+
+    </script>
+</body>
+
+</html>

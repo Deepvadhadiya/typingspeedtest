@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>break</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+
+        //break statement 
+
+        // let text = "";
+        // for (let i = 0; i < 10; i++) {
+        //     if (i === 3) { break; }
+        //     text += "The number is " + i + "<br>";
+        // }
+        // document.getElementById("demo").innerHTML = text;
+
+        //continue statement
+
+        // let text = "";
+        // for (let i = 0; i < 10; i++) {
+        //     if (i === 3) { continue; }
+        //     text += "The number is " + i + "<br>";
+        // }
+        // document.getElementById("demo").innerHTML = text;
+
+        // const cars = ["BMW", "Volvo", "Saab", "Ford"];
+        // let text = "";
+        // list: {
+        //     text += cars[0] + "<br>";
+        //     text += cars[1] + "<br>";
+        //     break list;
+        //     text += cars[2] + "<br>";
+        //     text += cars[3] + "<br>";
+        // }
+        // document.getElementById("demo").innerHTML = text;
+
+        const fruits = new Map([["Apple", 100],["Banana", 50],["Orange", 150]]);
+        let text = "";
+        for (const x of fruits){
+            text += x + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>

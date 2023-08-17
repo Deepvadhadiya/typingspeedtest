@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        // const letters = new Set(["abc", "bca", "cba"]);
+        // let size = letters.size;
+        // document.getElementById("demo").innerHTML = size;
+
+
+        // const letters = new Set();
+        // letters.add("a");
+        // letters.add("b");
+        // letters.add("c");
+        // letters.add("d");
+        // let size = letters.size;
+        // document.getElementById("demo").innerHTML = size;
+
+        // const letters = new Set();
+        // const a = ("abc");
+        // const b = ("bca");
+        // const c = ("cba");
+        // const d = ("bac");
+        // letters.add(a);
+        // letters.add(b);
+        // letters.add(c);
+        // letters.add(d);
+        // let size = letters.size;
+        // document.getElementById("demo").innerHTML = size;
+
+        // const letters = new Set(["a", "b", "c"]);
+        // letters.add("d");
+        // letters.add("e");
+        // let size = letters.size;
+        // document.getElementById("demo").innerHTML = size;
+
+        // const letters = new Set();
+        // letters.add("a");
+        // letters.add("b");
+        // letters.add("c");
+        // letters.add("c");
+        // letters.add("c");
+        // letters.add("c");
+        // letters.add("c");
+        // letters.add("c");
+        // let size = letters.size;
+        // document.getElementById("demo").innerHTML = size;
+
+        // const letters = new Set(["a", "b", "c"]);
+        // let text = "";
+        // letters.forEach(function (value) {
+        //     text += value + "<br>";
+        // })
+        // document.getElementById("demo").innerHTML = text;
+
+        // const letters = new Set(["a", "b", "c"]);
+        // document.getElementById("demo").innerHTML = letters.values();
+
+        const letters = new Set(["a", "b", "c"]);
+        let text = "";
+        for (const x of letters.values()) {
+            text += x + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>

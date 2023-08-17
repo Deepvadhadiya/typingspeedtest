@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        // document.getElementById("demo").innerHTML = Boolean(10 > 9);
+
+        //true value return
+
+        // document.getElementById("demo").innerHTML =
+        //     "155 is " + Boolean(155) + "<br>" +
+        //     "3.15 is " + Boolean(3.15) + "<br>" +
+        //     "-25 is " + Boolean(-25) + "<br>" +
+        //     "Any (not empty) string is " + Boolean("Hii") + "<br>" +
+        //     "Even the string 'hello' is " + Boolean('hello') + "<br>" +
+        //     "Any expression (except zero) is " + Boolean(1 + 7 + 3.14);
+
+        //false value return 
+
+        // let x = 0;
+        // document.getElementById("demo").innerHTML = Boolean(x);
+
+        // let x = -0;
+        // document.getElementById("demo").innerHTML = Boolean(x);
+
+        // let x = "";
+        // document.getElementById("demo").innerHTML = Boolean(x);
+
+        // let x;
+        // document.getElementById("demo").innerHTML = Boolean(x);
+
+        // let x = null;
+        // document.getElementById("demo").innerHTML = Boolean(x);
+
+        // let x = false;
+        // document.getElementById("demo").innerHTML = Boolean(x);
+
+        // let x = 10 / "Hello";
+        // document.getElementById("demo").innerHTML = Boolean(x);
+
+        // let x = false;
+        // let y = new Boolean(false);
+        // document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
+
+        let x = false;
+        let y = new Boolean(false);
+        document.getElementById("demo").innerHTML = (x == y);
+    </script>
+</body>
+
+</html>
